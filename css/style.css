@@ -1,0 +1,123 @@
+/* Estilos básicos */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #3498db;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  background: white;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Receta */
+.receta {
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.receta h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.receta img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+/* Ingredientes y preparación */
+.ingredientes,
+.preparacion {
+  margin: 1.5rem 0;
+}
+
+.ingredientes h4,
+.preparacion h4 {
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+.ingredientes ul {
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border-left: 4px solid #3498db;
+}
+
+.preparacion ol {
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border-left: 4px solid #e74c3c;
+}
+
+/* Consejos */
+.consejos {
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.consejos h4 {
+  color: #856404;
+  margin-top: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
